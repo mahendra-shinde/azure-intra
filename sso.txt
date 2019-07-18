@@ -1,0 +1,13 @@
+1. Goto Active Directory (Default)
+2. Enterprise Applications > Click "New Application"
+3. Select "Box" Click "Add" Button
+4. From List of Applications click on "Box"
+5. Goto "Users & Groups" click "New User"
+	choose your guest user from the list and ADD it
+	Assign Role "User"
+	Click Apply
+6. Click on "Single Sign On" and choose "Password"
+7. Open new private browser windows
+	and Visit https://myapps.microsoft.com
+8. Login with Guest User credentials
+    You should get "Box" application logo

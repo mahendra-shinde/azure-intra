@@ -1,0 +1,14 @@
+ARM Facts
+1. Main file is "azuredeploy.json" which is Mandatory
+	When "parameters" file is missing, powershell would prompt you
+	to enter values at runtime.
+
+2. filenames SHOULD be azuredeploy.json and azuredeploy.parameters.json
+	as per the BEST practices.
+   But, you can actually use ANY file name!!
+3. Deploy using:
+	3.1 Azure Powershell (Windows)
+	3.2 Azure CLI
+	3.3 Azure Powershell Core (Cross Platform)
+	3.4 Third party automation tools like puppet, chef and ansible
+	3.5 Azure Portal (linked to GitHub)

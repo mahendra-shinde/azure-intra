@@ -1,0 +1,19 @@
+1. Switch to Default Directory
+2. Create New User
+     Username: <name>@<directory-name>
+	Ex:   chris@mahendraunlimitedgmail.onmicrosoft.com
+     Role: Limited Administrator > Cloud Application Administrator
+
+3. Open a new "Private Browser Windows" and Visit portal.azure.com
+4. Login with New User and Temporary Password
+5. Update the password
+6. Switch back to previous windows (Keep both windows)
+7. Create a new Resource Group 
+	Name: AppGroup
+	Location: South east asia
+8. Inside Resource group > Access Control (IAM) > Add role-assignment
+	Role : Reader
+	User: Chris (New User)
+9. Switch to other Windows (Where chris is logged in)
+	Logout and Login again
+	Goto Resource Groups > You should get "AppGroup" listed!

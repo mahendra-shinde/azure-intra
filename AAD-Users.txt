@@ -1,0 +1,23 @@
+Create a new Global Administrator Account
+  1. Goto Users > Click on "New User"
+      name: <Your name>
+      UserName: <yourname>@<activedirectory>
+	ex	mahendrashinde@mhendr.onmicrosoft.com
+  2. Click Create
+  3. Click on "Users" > Select newly created User
+	and Click "Directory Role" > Add Assignment
+  4. Search for "global" and then 
+	select "Global Administrator" from the list	
+  5. Click "Add" button
+  6. Select newly created user > click "Reset Password"
+	A New Temporary Password is generated.
+	Copy this password.
+  7. On Right Top Corner click on Directory Name
+	Click "Sign In with Different Account"
+  8. Enter new username
+	ex mahendrashinde@mhendr.onmicrosoft.com
+  9. Enter the temp. password and login
+ 10. Update password: enter old password and new pass.
+ 11. Click Update.
+	
+		

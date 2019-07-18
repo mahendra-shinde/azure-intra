@@ -1,0 +1,23 @@
+
+Sign in with GitHub.com 
+
+fork following repository:
+	https://github.com/mahendra-shinde/aspnetcore-with-mssql 
+
+Create new Azure Web App
+	Region: 	SouthEast Asia
+	Plan:  		S1
+	Platform: 	Linux
+	Runtime Stack:	DOT NET Core 2.2
+
+Click Browse button to verify Application creations
+EXPECTED: Hey, .NET Core Developer Page
+
+Now, Go Back to Azure Portal, Web App and Select your web app
+Click "Deployment Center" and choose "GitHub" in Source control
+ Click "Authorize" Button to link your GitHub Account with Azure Services
+	[One time Step]
+ Click "Next" and choose "App Service Build Service" and Click Next
+ In "Configure" choose Organisation <Your Git Account> 
+	Choose Repository "aspnetcore-with-mssql"
+	Choose the branch "master"
