@@ -1,0 +1,14 @@
+Launch Powershell
+
+## Get List of Files and Directories, but display only name
+dir | select name
+
+## Get List of Files & Directories and store in VARIABLE
+$files = dir
+
+## WMI (Windows Management)
+get-process
+
+get-process | select processName
+
+get-process | select processName | Out-GridView
